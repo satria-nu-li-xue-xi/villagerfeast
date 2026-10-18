@@ -1,0 +1,41 @@
+{
+	"schemaVersion": 1,
+	"id": "villagerfeast",
+	"version": "${version}",
+	"name": "Villager Feast",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/villagerfeast/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.qin.villagerfeast.VillagerFeast"
+		],
+		"client": [
+			"com.qin.villagerfeast.client.VillagerFeastClient"
+		],
+        "modmenu": [
+            "com.qin.villagerfeast.client.VillagerFeastModMenu"
+        ]
+	},
+	"mixins": [
+		"villagerfeast.mixins.json",
+		{
+			"config": "villagerfeast.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}

@@ -3,9 +3,9 @@
 	"id": "villagerfeast",
 	"version": "${version}",
 	"name": "Villager Feast",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "We now can share our various more foods to Villagers!",
 	"authors": [
-		"Me!"
+		"QinMods"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",

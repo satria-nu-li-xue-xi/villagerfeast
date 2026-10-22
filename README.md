@@ -42,5 +42,8 @@ cd villagerfeast
 ```
 The mod jar ends up in `build/libs/`. You'll need Java 25.
 
+## Availability
+This mod is currently available on CurseForge, download it here: https://www.curseforge.com/minecraft/mc-mods/villager-feast
+
 ## License
 MIT
